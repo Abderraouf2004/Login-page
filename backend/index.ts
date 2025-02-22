@@ -8,7 +8,7 @@ const app= express();
 
 app.use(express.json());
 app.use(cors());
-app.post("/Login",Login);
+app.post("/",Login);
 app.listen(8000,()=>{
     console.log("succed")
 })

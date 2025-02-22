@@ -6,7 +6,7 @@ const Home = () => {
     const navigate = useNavigate();
     const name = location.state?.name || "Utilisateur inconnu";
     const handleLogout = () => {
-        navigate("/login"); 
+        navigate("/"); 
     };
 
     return (
